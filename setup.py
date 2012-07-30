@@ -85,7 +85,7 @@ setup(
     cmdclass = cmdclasses,
     data_files = data_files,
     classifiers = [
-        'Development Status :: 1 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',

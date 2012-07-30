@@ -1,0 +1,4 @@
+# See http://pip-installer.org/requirement-format.html for more information.
+Django>=1.4
+lxml==2.3.4 # http://lxml.de/ => On Windows, use easy_install with the binary. See http://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml
+django-jsonfield # http://pypi.python.org/pypi/django-jsonfield/

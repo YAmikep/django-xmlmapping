@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<restaurant xmlns:gastronomy="http://www.example-gastronoy.com/" xmlns:hits="http://www.example-gastronoy.com/">
+	<breakfast_menu>
+		<food>
+			<guid>1</guid>
+			<gastronomy:name>Belgian Waffles</gastronomy:name>
+			<price>$5.95</price>
+			<description>two of our famous Belgian Waffles with plenty of real maple syrup.</description>
+			<calories>650</calories>
+		</food>
+		<food>
+			<guid>2</guid>
+			<gastronomy:name>French Toast</gastronomy:name>
+			<price>$4.50</price>
+			<description>thick slices made from our homemade sourdough bread</description>
+			<calories>600</calories>
+		</food>
+	</breakfast_menu>	
+	<jukebox_catalog>
+		<hits:cd>
+			<title>Summer Of 69</title>
+			<artist>Bryan Adams</artist>
+			<country>USA</country>
+			<year>1985</year>
+		</hits:cd>
+		<hits:cd>
+			<title>Hide your heart</title>
+			<artist>Bonnie Tyler</artist>
+			<country>UK</country>
+			<year>1988</year>
+		</hits:cd>
+		<hits:cd>
+			<title>Greatest Hits</title>
+			<artist>Dolly Parton</artist>
+			<country>USA</country>
+			<year>1982</year>
+		</hits:cd>
+	</jukebox_catalog>
+</restaurant>

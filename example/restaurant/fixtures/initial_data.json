@@ -1,0 +1,40 @@
+[
+    {
+        "pk": 1, 
+        "model": "xmlmapping.mapping", 
+        "fields": {
+            "data_map": {
+                "restaurant.jukebox_catalog.hits:cd": {
+                    "models": {
+                        "restaurant.Music": {
+                            "singer": "artist", 
+                            "title": "title", 
+                            "desc": [
+                                "country", 
+                                "year"
+                            ]
+                        }
+                    }
+                }, 
+                "restaurant.breakfast_menu.food": {
+					"get_id": "guid",
+                    "models": {
+                        "restaurant.Menu": {
+                            "label": [
+                                "gastronomy:name", 
+                                "price"
+                            ]
+                        }, 
+                        "restaurant.Meal": {
+                            "nb_calories": "calories", 
+                            "price": "price", 
+                            "about": "description", 
+                            "title": "gastronomy:name"
+                        }
+                    }
+                }
+            }, 
+            "label": "Restaurant Mapping"
+        }
+    }
+]

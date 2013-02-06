@@ -1,3 +1,10 @@
+!! Note: This app is not maintained anymore.
+I am working on a more generic app: django-datamapping.
+You can have a look at the progress on https://trello.com/b/qPX45fuX
+The repository (empty for now): https://github.com/YAmikep/django-datamapping
+
+
+
 ==================
 django-xmlmapping
 ==================
